@@ -1,1 +1,12 @@
-Hello Ashish
+git config --global user.name "Guddiya001"
+git config --global user.email "ashishkumarsingh001@gmail.com"
+git config --global user.password "Guddiya@001"
+git int
+git clone 
+git clone https://github.com/Guddiya001/React.git
+git add test.txt
+git status
+git commit -m "fist commit" test.txt
+git push -u origin master
+git pull -u origin master
+git branch ----- for check branch
