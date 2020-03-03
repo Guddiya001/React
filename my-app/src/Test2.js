@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 //const data2 = 'jsxjhsdfjgsdfgsjkgsdbsdbfkhsd   sdfsdhf sd fjsd sdfsdf  fsdfsd fjsdfsf s ff sif';
 
 class Test2 extends Component {
-
+ 
     render() {
         return (
 
@@ -10,7 +10,7 @@ class Test2 extends Component {
             <div className = "col-md-12" >
 
             <div className = "col-md-6" >
-            <h1> Logo image < /h1>
+            <h1> Logo image </h1>
 
             </div> <div className = "col-md-6">
             <ul className = "dropdown-menu">

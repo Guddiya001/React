@@ -5,6 +5,7 @@ import './App.css';
 import test from './Test.js'
 import Test2 from './Test2.js'
 import Test3 from './Test3.js'
+import Test4 from './Test4.js'
 
 
 var data = {
@@ -20,22 +21,23 @@ class App extends Component {
         return (
 
 
-            <div className = "App" >
+            <div className = "App">
 
             <Test2 />
+            <Test4 title="singh" name="Ashish" />
             <Test3 />
           
 
             <header className = "App-header" >
-            <h1> Ashish Kumar Singh Ji < /h1> <p> Name: { data.name } </p> <p> Age: { data.age } </p> <p> class: { data.class } </p>
+            <h1> Ashish Kumar Singh Ji </h1> <p> Name: { data.name } </p> <p> Age: { data.age } </p> <p> class: { data.class } </p>
 
 
             <form>
-            <label htmlFor = "username" > username < /label>  <
+            <label htmlFor = "username" > username </label>  <
             input type = "text"
             name = "username"
             value = { data.name } />  
-            </form >
+            </form>
 
             <img src = { logo }
             className = "App-logo"
